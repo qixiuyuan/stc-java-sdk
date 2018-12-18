@@ -61,7 +61,7 @@ stc for java
 		}
     	return aInfo;
     }
-#获取节点高度    
+# 获取节点高度    
     /**
      * 获取节点高度
      * @param nodeAPI
@@ -70,7 +70,7 @@ stc for java
     public static String getNodeHeight(final String nodeAPI ){
     	return NodeMsg.getNodeHeight(nodeAPI);
     }
- #获取交易体   
+ # 获取交易体   
     /**
      * 获取交易体
      * @param Asset 合约信息
@@ -83,7 +83,7 @@ stc for java
     public static String makeTransferTransaction(AssetInfo Asset, byte[] publicKeyEncoded, String toAddress, Double transferAssetAmount,String Desc){
     	return Transaction.makeTransferTransaction(Asset, publicKeyEncoded, toAddress, transferAssetAmount, Desc);
     }    	
-#离线签名并发送事务    
+# 离线签名并发送事务    
     /**
      * 离线签名并发送事务
      * @param nodeAPI 节点地址
