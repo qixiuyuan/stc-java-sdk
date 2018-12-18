@@ -32,7 +32,7 @@ stc for java
         Account account = new Account(Base58.decode(privateKey));
         return account;
     }
-#获取账户合约列表    
+# 获取账户合约列表    
     /**
      * 获取账户合约列表
      * @param nodeAPI 节点地址
@@ -42,7 +42,7 @@ stc for java
     public static AssetInfo[] getUpspentList(final String nodeAPI ,final Account account){
     	return AccountAsset.getUpspent(nodeAPI, account);
     }
-#获取账户合约信息
+# 获取账户合约信息
     /**
      * 获取账户合约信息
      * @param nodeAPI 节点地址
